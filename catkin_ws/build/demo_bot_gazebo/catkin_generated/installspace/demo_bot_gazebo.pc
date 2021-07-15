@@ -1,4 +1,4 @@
-prefix=/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/install
+prefix=/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/install
 
 Name: demo_bot_gazebo
 Description: Description of demo_bot_gazebo

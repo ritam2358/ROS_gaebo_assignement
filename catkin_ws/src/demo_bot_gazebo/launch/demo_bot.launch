@@ -9,8 +9,7 @@
     <arg name="debug" value="false"/>
   </include>
 
-  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find demo_bot_gazebo)/urdf/test_bot.urdf -urdf -z 1 -model test_robot2" />
-  <!-- <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find demo_bot_gazebo)/urdf/my_robot.urdf -urdf -z 1 -model test_robot1" /> -->
+  <!-- <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find demo_bot_gazebo)/urdf/test_bot.urdf -urdf -z 1 -model test_robot" /> -->
     
 </launch>
 

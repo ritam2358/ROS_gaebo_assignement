@@ -67,14 +67,14 @@ set(demo_bot_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(demo_bot_gazebo_SOURCE_PREFIX /home/ritam/Documents/AUV/Software/Simulation/catkin_ws/src/demo_bot_gazebo)
-  set(demo_bot_gazebo_DEVEL_PREFIX /home/ritam/Documents/AUV/Software/Simulation/catkin_ws/devel)
+  set(demo_bot_gazebo_SOURCE_PREFIX /home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/src/demo_bot_gazebo)
+  set(demo_bot_gazebo_DEVEL_PREFIX /home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/devel)
   set(demo_bot_gazebo_INSTALL_PREFIX "")
   set(demo_bot_gazebo_PREFIX ${demo_bot_gazebo_DEVEL_PREFIX})
 else()
   set(demo_bot_gazebo_SOURCE_PREFIX "")
   set(demo_bot_gazebo_DEVEL_PREFIX "")
-  set(demo_bot_gazebo_INSTALL_PREFIX /home/ritam/Documents/AUV/Software/Simulation/catkin_ws/install)
+  set(demo_bot_gazebo_INSTALL_PREFIX /home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/install)
   set(demo_bot_gazebo_PREFIX ${demo_bot_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ritam/Documents/AUV/Software/Simulation/catkin_ws/install/lib;/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

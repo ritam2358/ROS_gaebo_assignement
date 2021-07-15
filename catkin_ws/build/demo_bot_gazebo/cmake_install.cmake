@@ -1,8 +1,8 @@
-# Install script for directory: /home/ritam/Documents/AUV/Software/Simulation/catkin_ws/src/demo_bot_gazebo
+# Install script for directory: /home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/src/demo_bot_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/build/demo_bot_gazebo/catkin_generated/installspace/demo_bot_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/build/demo_bot_gazebo/catkin_generated/installspace/demo_bot_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_bot_gazebo/cmake" TYPE FILE FILES
-    "/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/build/demo_bot_gazebo/catkin_generated/installspace/demo_bot_gazeboConfig.cmake"
-    "/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/build/demo_bot_gazebo/catkin_generated/installspace/demo_bot_gazeboConfig-version.cmake"
+    "/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/build/demo_bot_gazebo/catkin_generated/installspace/demo_bot_gazeboConfig.cmake"
+    "/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/build/demo_bot_gazebo/catkin_generated/installspace/demo_bot_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_bot_gazebo" TYPE FILE FILES "/home/ritam/Documents/AUV/Software/Simulation/catkin_ws/src/demo_bot_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_bot_gazebo" TYPE FILE FILES "/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/src/demo_bot_gazebo/package.xml")
 endif()
 

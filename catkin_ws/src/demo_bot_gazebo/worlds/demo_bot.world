@@ -57,7 +57,7 @@
         </visual>
       </link>
     </model> -->
-
+    
     <model name="cabinet">
     <pose>3 3 0 0 0 0</pose>
     <static>true</static>
