@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/src:$ROS_PACKAGE_PATH"

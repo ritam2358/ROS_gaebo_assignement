@@ -1,2 +1,2 @@
-demo_bot_gazebo
+demo_bot_description:demo_bot_gazebo
 -DCATKIN_DEVEL_PREFIX=/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ritam/Documents/AUV/Software/Simulation/assignment1/catkin_ws/install -G Unix Makefiles

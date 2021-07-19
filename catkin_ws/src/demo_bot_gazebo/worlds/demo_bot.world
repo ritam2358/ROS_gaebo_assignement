@@ -37,9 +37,14 @@
       <cast_shadows>false</cast_shadows>
     </light>
 
-    <!-- <model name="box">
-      <pose>5 2 0 0 0 0</pose>
+    <model name="box">
+      <pose>5 2 0.5 0 0 0</pose>
       <static>true</static>
+      <inertial>
+        <mass value="5"/>
+        <origin xyz="0.5 0.5 0.5"/>
+        <inertia ixx="0.83" ixy="0.0" ixz="0.0" iyy="0.83" iyz="0.0" izz="0.83"/>
+      </inertial>
       <link name="link">
         <collision name="collision">
           <geometry>
@@ -56,10 +61,64 @@
           </geometry>
         </visual>
       </link>
-    </model> -->
+    </model>
+
+    <model name="cylinder">
+      <pose>3 3 0.5 0 0 0</pose>
+      <static>true</static>
+      <inertial>
+        <mass value="5"/>
+        <origin xyz="0 0 0.5"/>
+        <inertia ixx="1.67" ixy="0.0" ixz="0.0" iyy="1.67" iyz="0.0" izz="2.5"/>
+      </inertial>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>1</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>1</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="ball">
+      <pose>4 5 1 0 0 0</pose>
+      <static>true</static>
+      <inertial>
+        <mass value="5"/>
+        <origin xyz="0 0 1"/>
+        <inertia ixx="2" ixy="0.0" ixz="0.0" iyy="2" iyz="0.0" izz="2"/>
+      </inertial>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <sphere>
+              <radius>1</radius>
+            </sphere>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <sphere>
+              <radius>1</radius>
+            </sphere>
+          </geometry>
+        </visual>
+      </link>
+    </model>
     
     <model name="cabinet">
-    <pose>3 3 0 0 0 0</pose>
+    <pose>2 5 0 0 0 0</pose>
     <static>true</static>
     <link name="link">
       <collision name="collision">
